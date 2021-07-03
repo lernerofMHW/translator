@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="shortcut icon" href="image/favicon.ico" >
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="heading">
+        <h1 class="head">Translate English to any Language</h1>
+    <form action="" method="post">
+    </section>
+    <section id="mainBody">
+        <h3 >Type in English</h3>
+
+        <div>
+            <!-- input box where we input our text -->
+            <!-- <input type="text" class="textBox"> -->
+            <textarea name="textarea" id="textBox" cols="30" rows="10">
+                
+            </textarea>
+        </div>
+        <div>
+            Select language in which you want to convert
+        <select id="mySelect">
+        <option value="hi">Hindi</option>
+        <option value="ar">Arabic</option>
+        <option value="zh">Chinese</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+        <option value="ga">Irish</option>
+        <option value="it">Italian</option>
+        <option value="ja">Japanese</option>
+        <option value="ko">Korean</option>
+        <option value="pt">Portuguese</option>
+        <option value="ru">Russian</option>
+        <option value="es">Spanish</option>
+        </select>
+        <button type="button" onclick="myFunction()">Convert it</button>
+        </div>
+        <!-- cointainor that will contain the translated languages -->
+        <div id = "contain">
+
+        </div>
+    </section>
+</form>
+    <section id="contactMe">
+         <span id="name">Developed By PRIYANSHU BANSAL</span>
+         <br>
+         <span id="email">Email id : 2019ume0196@iitjammu.ac.in</span>
+    </section>
+<script src="node.js"></script>
+</body>
+</html>

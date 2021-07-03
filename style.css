@@ -1,0 +1,36 @@
+body{
+    margin: 0rem;
+    text-align: center;
+}
+h1{
+    margin: 0rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: #EEEEEE; 
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+#textBox{
+    width: 90%;
+    height: 5rem;
+
+}
+#heading{
+    background-color:#C0C0C0;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+#name{
+    font-family: 'Roboto', sans-serif;
+}
+#email{
+    font-family: 'Roboto', sans-serif;
+}
+#contain{
+    margin: auto;
+    border-style: solid;
+    width: 90%;
+    height: 5rem;
+    
+}
